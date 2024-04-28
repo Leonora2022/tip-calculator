@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <img src="./images/career in investment banking.jpeg" alt="money charts" class="img-cash">
+        <div class="sub-wrapper">
+        <h1 class="tip-title">Tip Calculator</h1>
+    <form class="form">
+        <label for="bill">
+            <span>Bill</span>
+        </label>
+        <input type="text" name="bill" id="bill">
+        <output class="bill-output out" for="bill"></output>
+
+        <label for="tip">
+            <span>Tip %</span>
+        </label>
+        <input type="text" name="tip" id="tip">
+        <output class="tip-output out" for="tip"></output>
+   
+        <label for="people">
+            <span>Number of People</span>
+        </label>
+        <input type="text" name="people" id="people">
+        <output class="person-output out" for="people"></output>
+    
+        <button type="submit" class="btn btn-calc">Calculate</button>
+    </form>
+
+    <dl class="detail-display">
+        <div class="desc-data">
+            <dt>Tip Amount <span class="down-label">/ person</span></dt>
+            <dd>$ <span class="tip-unit">0.00</span></dd>
+        </div>
+        <div class="desc-data">
+            <dt>Total <span class="down-label">/ person</span></dt>
+            <dd>$ <span class="total-unit">0.00</span></dd>
+        </div>
+        <button class="btn btn-reset">reset</button>
+    </dl>
+    </div>
+</div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
