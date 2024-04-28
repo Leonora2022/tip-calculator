@@ -88,6 +88,7 @@
         border-bottom: 1px solid purple;
         outline: 0;
         font-size: 1rem;
+        font-weight: 600;
     } 
 
     input[type]:focus {
@@ -157,5 +158,8 @@
             justify-content: center;
             align-items: center;
             margin-top: 1.3rem;
+        }
+        .out {
+            font-size: 1rem;
         }
     }
